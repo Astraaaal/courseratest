@@ -17,3 +17,14 @@ function checkCountValue() {
     alert("Your Instagram post gained 20 followers! Keep it up!");
   }
 }
+
+function reset() {
+    var choice = confirm("Do you want to reset?");
+    
+    if (choice) {
+        count = 0
+        displayCount();
+    } else {
+        // User clicked "Cancel"
+    }
+}
